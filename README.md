@@ -3,8 +3,8 @@
 **Enseignante :** Prof. Mariam CHERRABI  
 **Équipe :** MALDANI & BOUJRADA  
 **Membres de l'équipe (Binôme) :**  
-- **Mostafa MALDANI** (Ingénierie & Data Science / Architecture RAG) — `maldanirachid2016@gmail.com`
-- **Younes BOUJRADA** (Systèmes Agentiques, MCP & VLM) — `boujrada.younes@emsi.ma`
+- **Mostafa MALDANI**
+- **Younes BOUJRADA**
 
 ---
 
