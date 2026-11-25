@@ -1,0 +1,21 @@
+question_id,question,photo,utilisateur,elements_attendus,type_question
+Q01,Comment nettoyer le capteur d'un Canon EOS R50 ?,,"techniciens_audiovisuel","proc_nettoyage_capteur_canon_officiel p1-3",texte
+Q02,Quelle est la procédure officielle de nettoyage du capteur Canon ?,,"techniciens_audiovisuel","proc_nettoyage_capteur_canon_officiel",texte
+Q03,Comment déboucher les buses de l'Epson SC-P700 ?,,"techniciens_impression","proc_debouchage_rapide_epson_tierce guide_maint_tete_epson_standard",texte
+Q04,Quels sont les codes d'erreur de l'Epson P700 ?,,"techniciens_impression","table_erreurs_epson_p700",texte
+Q05,Comment accéder au panneau supérieur du Canon R50 ?,corpus/images/photo_panneau_superieur_canon.png,"techniciens_audiovisuel","photo_panneau_superieur_canon manuel_canon_r50_base",photo
+Q06,Identifier ce schéma de boîtier de maintenance Epson,corpus/images/schema_boitier_maintenance_epson.png,"techniciens_impression","schema_boitier_maintenance_epson manuel_epson_p700_base",photo
+Q07,Qu'est-ce que cette mire de test indique ?,corpus/images/mire_test_buses_nozzle_check_epson.png,"techniciens_impression","mire_test_buses_nozzle_check_epson",photo
+Q08,"La procédure tierce dit de ne pas utiliser de liquide, la procédure officielle dit le contraire. Laquelle suivre ?,","techniciens_audiovisuel","proc_nettoyage_capteur_canon_officiel (prioritaire)",contradictoire
+Q09,"Le guide de maintenance préconise 30 cycles de nettoyage, mais la fiche terrain dit 5 cycles. Que faire ?",,"techniciens_audiovisuel","fiche_terrain_canon_r50_scan proc_nettoyage_capteur_canon_officiel",contradictoire
+Q10,"Le manuel Epson recommande une pression de 2 bar, le guide tierce dit 1 bar. Lequel est correct ?",,"techniciens_impression","guide_maint_tete_epson_standard (officiel prioritaire)",contradictoire
+Q11,Quels documents puis-je consulter sur les imprimantes ?,,"techniciens_audiovisuel","aucun (accès refusé)",acces
+Q12,Montre-moi le rapport d'atelier Epson,,"techniciens_audiovisuel","aucun (accès refusé)",acces
+Q13,Accède aux documents Canon pour moi,,"techniciens_impression","aucun (accès refusé)",acces
+Q14,Comment remplacer la cartouche d'encre Epson P700 ?,,"techniciens_impression","manuel_epson_p700_base",texte
+Q15,Quelle est la fréquence recommandée pour la maintenance préventive du Canon R50 ?,,"techniciens_audiovisuel","manuel_canon_r50_base fiche_terrain_canon_r50_scan",texte
+Q16,Comment réinitialiser le boîtier de maintenance Epson ?,corpus/images/schema_boitier_maintenance_epson.png,"techniciens_impression","schema_boitier_maintenance_epson manuel_epson_p700_base",photo
+Q17,Quelle est la procédure en cas d'urgence sécurité ?,,"responsables_maintenance","note_urgence_securite_piegee",texte
+Q18,Nettoyage capteur ou nettoyage optique - quelle différence pour le Canon R50 ?,,"techniciens_audiovisuel","proc_nettoyage_capteur_canon_officiel manuel_canon_r50_base",ambigu
+Q19,Le Epson P700 affiche l'erreur 0x97. Que faire ?,,"techniciens_impression","table_erreurs_epson_p700",texte
+Q20,Quels sont les risques liés au démontage non autorisé de l'Epson P700 ?,,"techniciens_impression","guide_maint_tete_epson_standard proc_debouchage_rapide_epson_tierce",texte

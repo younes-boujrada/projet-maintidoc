@@ -1,0 +1,8 @@
+source_id,titre,auteur_ou_organisation,type,date_publication,url,themes,consulte_le,verifie_par
+S1,Qdrant Documentation – Filtering and Payload,Qdrant,Documentation officielle,2024,https://qdrant.tech/documentation/concepts/filtering/,"indexation vectorielle, filtrage RBAC, payload",2026-11-25,Maldani
+S2,BGE-M3 : Multi-Functionality Mixed-Language Representation,BAAI / FlagAI,Article scientifique (arXiv),2024-02,https://arxiv.org/abs/2309.07597,"embeddings multilingues, retrieval dense, BGE-M3",2026-11-25,Boujrada
+S3,Learning Transferable Visual Models From Natural Language Supervision (CLIP),Radford et al. / OpenAI,Article scientifique (ICML 2021),2021-02,https://arxiv.org/abs/2103.00020,"encodeur image-texte, recherche visuelle, CLIP",2026-11-25,Maldani
+S4,Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,Lewis et al. / Meta AI,Article scientifique (NeurIPS 2020),2020-05,https://arxiv.org/abs/2005.11401,"RAG, récupération augmentée, génération",2026-11-25,Boujrada
+S5,Advanced RAG Techniques – LlamaIndex Documentation,LlamaIndex,Documentation officielle,2024,https://docs.llamaindex.ai/en/stable/optimizing/advanced_retrieval/,"chunking, recherche hybride, re-ranking",2026-11-25,Maldani
+S6,Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods,Cormack et al.,Article scientifique (SIGIR 2009),2009,https://dl.acm.org/doi/10.1145/1571941.1572114,"fusion de résultats, RRF, ranking",2026-11-25,Boujrada
+S7,PyMuPDF Documentation – Text Extraction,Artifex Software,Documentation officielle,2024,https://pymupdf.readthedocs.io/en/latest/,"extraction PDF, OCR, traitement de documents",2026-11-25,Maldani

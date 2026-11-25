@@ -1,0 +1,37 @@
+utilisateurs:
+  - id: "tech_av_01"
+    nom: "Lucas Martin"
+    role: "techniciens_audiovisuel"
+    departement: "Maintenance Audiovisuelle & Événementiel"
+    familles_autorisees:
+      - "appareils_photo"
+    restrictions:
+      - "imprimantes_pro: INTERDIT"
+
+  - id: "tech_imp_01"
+    nom: "Sarah Benali"
+    role: "techniciens_impression"
+    departement: "Atelier Impression Grand Format"
+    familles_autorisees:
+      - "imprimantes_pro"
+    restrictions:
+      - "appareils_photo: INTERDIT"
+
+  - id: "resp_maint_01"
+    nom: "Karim Tazi"
+    role: "responsables_maintenance"
+    departement: "Direction Technique GMAO"
+    familles_autorisees:
+      - "appareils_photo"
+      - "imprimantes_pro"
+    restrictions: []
+
+  - id: "stagiaire_01"
+    nom: "Yassine Alami"
+    role: "operateurs_invites"
+    departement: "Stagiaire Maintenance"
+    familles_autorisees:
+      - "appareils_photo"
+      - "imprimantes_pro"
+    restrictions:
+      - "manuels_avances: INTERDIT (manuels de base uniquement)"

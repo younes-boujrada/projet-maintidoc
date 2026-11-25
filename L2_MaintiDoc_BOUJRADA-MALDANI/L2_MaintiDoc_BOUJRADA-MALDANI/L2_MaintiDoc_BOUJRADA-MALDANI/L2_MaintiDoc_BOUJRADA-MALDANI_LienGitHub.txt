@@ -1,0 +1,4 @@
+https://github.com/maldani/maintidoc
+Tag : v0.2-L2
+Équipe : BOUJRADA Younes & MALDANI Mostafa
+EMSI - 2026 - IA Générative Multimodale (Prof. Mariam CHERRABI)

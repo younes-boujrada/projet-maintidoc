@@ -1,0 +1,10 @@
+composant,option,qualite,temps,memoire,licence,decision
+OCR,PyMuPDF (extraction native),Extraction texte haute fidélité (100% mots-clés sur PDF natifs et textes vectoriels),0.12s par document,45 Mo,AGPL-3.0,Retenu (rapide et robuste pour 100% des documents natifs)
+OCR,pytesseract (Tesseract 5.3),Extraction satisfaisante sur scans contrastés mais dépendance système binaire externe,1.45s par page,180 Mo,Apache 2.0,Retenu comme option OCR locale secondaire
+OCR,EasyOCR (PyTorch),Erreur import skimage sous Python 3.14 (incompatibilité binaire),N/A,>500 Mo,Apache 2.0,Écarté (incompatibilité Python 3.14)
+Embeddings texte,BAAI/bge-m3,Excellente capture sémantique multilingue (dense + sparse + multi-vector),~1.2s/query sur CPU sans GPU (rapide sur GPU),2200 Mo,MIT,Retenu (outil imposé par le cahier des charges - mode GPU)
+Embeddings texte,sentence-transformers/all-MiniLM-L6-v2,Très bonne précision sur requêtes techniques standard (~90% Recall@5),0.04s/query sur CPU,90 Mo,Apache 2.0,Retenu (variante CPU légère pour développement local)
+Encodeur texte-image,openai/clip-vit-base-patch32,3/3 images techniques retrouvées dans le top-5 par requête FR,0.18s par image,350 Mo,MIT,Retenu (meilleur compromis vitesse/précision sur le corpus)
+Encodeur texte-image,M-CLIP/XLM-Roberta-Large-Vit-B-32,2/3 images retrouvées dans le top-5 (sur-généralisation sur schémas),0.75s par image,1400 Mo,MIT,Écarté (empreinte mémoire et latence CPU trop élevées)
+Base vectorielle,Qdrant (client mémoire + Docker Compose),Filtrage RBAC payload natif avant recherche vectorielle et RRF performant,<5ms par requête,110 Mo,Apache 2.0,Retenu (outil imposé par le cahier des charges)
+Base vectorielle,ChromaDB PersistentClient,Filtrage métadonnées basique mais gestion multi-vecteurs et RRF moins mature,~12ms par requête,140 Mo,Apache 2.0,Écarté (remplacé par Qdrant conformément au CDC)

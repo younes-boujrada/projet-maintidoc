@@ -1,0 +1,69 @@
+{
+  "equipment": {
+    "EPSON-P700-01": {
+      "equipment_id": "EPSON-P700-01",
+      "model": "Epson SureColor SC-P700",
+      "family": "imprimantes_pro",
+      "location": "Salle 104 Tirage Fine Art",
+      "total_prints": 3850,
+      "maintenance_box": "C12C935711",
+      "maintenance_box_status": "98% (Saturation imminente - Code 1485)",
+      "recent_interventions": [
+        {
+          "date": "2026-02-22",
+          "action": "Power Cleaning (Cycle 1)",
+          "technician": "Y. BOUJRADA",
+          "notes": "Banding récurrent sur buses Light Cyan."
+        },
+        {
+          "date": "2026-02-22",
+          "action": "Power Cleaning (Cycle 2)",
+          "technician": "Y. BOUJRADA",
+          "notes": "Deuxieme purge lourde consecutive. Règle des 12h de repos obligatoire enclenchée."
+        }
+      ]
+    },
+    "CANON-R50-LAB01": {
+      "equipment_id": "CANON-R50-LAB01",
+      "model": "Canon EOS R50",
+      "family": "appareils_photo",
+      "location": "Studio Plateau B Audiovisuel",
+      "shutter_count": 12400,
+      "battery_model": "LP-E17",
+      "recent_interventions": [
+        {
+          "date": "2026-01-15",
+          "action": "Controle annuel & MAJ Firmware v1.1.2",
+          "technician": "M. MALDANI",
+          "notes": "Inspection optique et verification chargeur LC-E17. Aucun voyant critique."
+        }
+      ]
+    }
+  },
+  "tickets": {
+    "TCK-20261123-0E52F4": {
+      "ticket_id": "TCK-20261123-0E52F4",
+      "equipment_id": "EPSON-P700-01",
+      "title": "Remplacement boîtier maintenance C12C935711",
+      "description": "Boîtier saturé code 1485",
+      "severity": "CRITIQUE",
+      "recommended_part": "C12C935711",
+      "created_at": "2026-11-23T13:58:55.691038",
+      "status": "OUVERT",
+      "created_by": "TECH-404",
+      "idempotency_key": "IDEM-TEST-001"
+    },
+    "TCK-20261123-E91A2C": {
+      "ticket_id": "TCK-20261123-E91A2C",
+      "equipment_id": "EPSON-P700-01",
+      "title": "Remplacement boîtier maintenance C12C935711",
+      "description": "Boîtier saturé code 1485",
+      "severity": "CRITIQUE",
+      "recommended_part": "C12C935711",
+      "created_at": "2026-11-23T14:06:37.613013",
+      "status": "OUVERT",
+      "created_by": "TECH-404",
+      "idempotency_key": "IDEM-69b301d828e2405dbff460579fe75025"
+    }
+  }
+}

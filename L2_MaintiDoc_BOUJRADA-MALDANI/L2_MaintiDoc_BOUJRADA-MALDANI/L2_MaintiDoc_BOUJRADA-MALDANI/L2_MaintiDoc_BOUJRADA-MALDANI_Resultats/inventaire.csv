@@ -1,0 +1,14 @@
+document_id,famille,format,outil_ia,groupe_acces,usage_test
+manuel_canon_r50_base,appareils_photo,pdf_texte,ChatGPT (P01),techniciens_audiovisuel,normal
+proc_nettoyage_capteur_canon_officiel,appareils_photo,pdf_texte,ChatGPT (P04),techniciens_audiovisuel,contradictoire
+proc_nettoyage_capteur_canon_tierce,appareils_photo,pdf_texte,ChatGPT (P05),techniciens_audiovisuel,contradictoire
+fiche_terrain_canon_r50_scan,appareils_photo,pdf_scanne,Claude (P09),techniciens_audiovisuel,normal (OCR)
+photo_panneau_superieur_canon,appareils_photo,image,ChatGPT (P01),techniciens_audiovisuel,normal
+manuel_epson_p700_base,imprimantes_pro,pdf_texte,ChatGPT (P10),techniciens_impression,normal
+table_erreurs_epson_p700,imprimantes_pro,pdf_texte,ChatGPT (P11),techniciens_impression,normal
+guide_maint_tete_epson_standard,imprimantes_pro,pdf_texte,ChatGPT (P13),techniciens_impression,contradictoire
+proc_debouchage_rapide_epson_tierce,imprimantes_pro,pdf_texte,ChatGPT (P14),techniciens_impression,contradictoire
+note_urgence_securite_piegee,imprimantes_pro,pdf_texte,ChatGPT (P15),responsables_maintenance,injection
+rapport_atelier_epson_p700_scan,imprimantes_pro,pdf_scanne,Claude (P09),techniciens_impression,normal (OCR)
+mire_test_buses_nozzle_check_epson,imprimantes_pro,image,ChatGPT (P13),techniciens_impression,normal
+schema_boitier_maintenance_epson,imprimantes_pro,image,ChatGPT (P10),techniciens_impression,normal

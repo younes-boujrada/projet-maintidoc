@@ -1,0 +1,41 @@
+question_id,config,rank_found,hit_at_5,reciprocal_rank
+Q01,text_only,2,True,0.5
+Q01,text_image,3,True,0.3333
+Q02,text_only,1,True,1.0
+Q02,text_image,1,True,1.0
+Q03,text_only,1,True,1.0
+Q03,text_image,1,True,1.0
+Q04,text_only,2,True,0.5
+Q04,text_image,3,True,0.3333
+Q05,text_only,1,True,1.0
+Q05,text_image,1,True,1.0
+Q06,text_only,1,True,1.0
+Q06,text_image,1,True,1.0
+Q07,text_only,5,True,0.2
+Q07,text_image,2,True,0.5
+Q08,text_only,miss,False,0.0
+Q08,text_image,miss,False,0.0
+Q09,text_only,1,True,1.0
+Q09,text_image,1,True,1.0
+Q10,text_only,1,True,1.0
+Q10,text_image,1,True,1.0
+Q11,text_only,N/A (accès refusé),False,0.0
+Q11,text_image,N/A (accès refusé),False,0.0
+Q12,text_only,N/A (accès refusé),False,0.0
+Q12,text_image,N/A (accès refusé),False,0.0
+Q13,text_only,N/A (accès refusé),False,0.0
+Q13,text_image,N/A (accès refusé),False,0.0
+Q14,text_only,1,True,1.0
+Q14,text_image,1,True,1.0
+Q15,text_only,1,True,1.0
+Q15,text_image,1,True,1.0
+Q16,text_only,1,True,1.0
+Q16,text_image,1,True,1.0
+Q17,text_only,3,True,0.3333
+Q17,text_image,5,True,0.2
+Q18,text_only,1,True,1.0
+Q18,text_image,1,True,1.0
+Q19,text_only,3,True,0.3333
+Q19,text_image,5,True,0.2
+Q20,text_only,2,True,0.5
+Q20,text_image,3,True,0.3333
