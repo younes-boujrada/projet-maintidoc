@@ -1,2 +1,1 @@
-https://github.com/malmo23/maintidoc-project
 https://github.com/younes-boujrada/projet-maintidoc
